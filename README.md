@@ -2,12 +2,12 @@
 Запущу сервер PostgreSQL в docker-контейнере. В нём создам базу данных market и таблицу books_program. В таблицу запишу данные от парсинга магазина wildberries.ru, что он выдаёт по поиску "книги программирование", используя библиотеку SQLAlchemy. Сделаю несколько запросов к бд на языке SQL (диалект postgresql).
 
 Содержание:
-- [Docker] [1]
+- [Docker](#docker)
 - [Python] [2]
 - [SQL] [3]
 - [SQLAlchemy Pandas] [4]
 
-<center>##[1]: Docker ##</center>
+<a name="docker"><h3 align=center>Docker</h3>
 Как уже написал, буду запускать сервер PostgreSQL в docker-контейнере.
 Для начала отключу сервер PostgreSQL на хосте, он автоматически у меня запускается как служба в Ubuntu 20.04:
 ```
