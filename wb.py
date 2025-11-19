@@ -9,7 +9,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 import asyncio
 from aiohttp import ClientSession
-#from aiohttp.exceptions import ConnectionTimeoutError 
 from openpyxl import Workbook
 from openpyxl.drawing.image import Image as oImage
 from openpyxl.styles import Alignment
